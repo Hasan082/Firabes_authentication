@@ -18,24 +18,22 @@
         />
 
     <EditText
-        android:id="@+id/fullName"
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="User name"
         android:textSize="15dp"
-        android:inputType="text"
-        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress"
         android:layout_marginBottom="10dp"
         />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/fullName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Full Name"
         android:textSize="15dp"
         android:inputType="textPersonName"
-        android:paddingHorizontal="10dp"
         android:layout_marginBottom="10dp"
         />
 
@@ -47,7 +45,7 @@
         android:textSize="15dp"
         android:drawableEnd="@drawable/eye"
         android:inputType="textPassword"
-        android:paddingHorizontal="10dp"
+        android:paddingEnd="10dp"
         android:layout_marginBottom="20dp"
         />
     <androidx.appcompat.widget.AppCompatButton
@@ -64,9 +62,10 @@
         android:id="@+id/gotoLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Already have and Account? Login"
+        android:text="Don't have an Account? Login"
         android:textSize="14dp"
         android:clickable="true"
+        android:paddingVertical="10dp"
         android:textAlignment="center"
         android:layout_marginTop="15dp"
         />
