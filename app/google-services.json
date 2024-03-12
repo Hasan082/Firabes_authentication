@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452921921090",
+    "project_id": "exam-e5643",
+    "storage_bucket": "exam-e5643.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452921921090:android:bc0d2ca99ef26fb069e7db",
+        "android_client_info": {
+          "package_name": "com.hasan.exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlZVyYwoxX4F9dLHJNyhfm5CfhmJiHrHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

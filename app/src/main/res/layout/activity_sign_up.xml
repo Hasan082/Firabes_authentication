@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIgn Up"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:textSize="15dp"
+        android:inputType="text"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textSize="15dp"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="15dp"
+        android:drawableEnd="@drawable/eye"
+        android:inputType="textPassword"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:text="SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="12dp"
+        />
+
+    <TextView
+        android:id="@+id/gotoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have and Account? Login"
+        android:textSize="14dp"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>
